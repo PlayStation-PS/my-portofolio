@@ -63,7 +63,7 @@ const AboutSection = () => {
                             <ul className="list-unstyled mt-4 contact-info">
                                 <li>📧 <strong>Email:</strong> bagus.tresna6@yahoo.com</li>
                                 <li>📞 <strong>Phone:</strong> 0821-4470-8860</li>
-                                <li>📍 <strong>Location:</strong> Tabanan, Bali</li>
+                                <li>📍 <strong>Location:</strong> Rungkut, Surabaya, Jawa Timur</li>
                             </ul>
                         </motion.div>
                     </Col>
