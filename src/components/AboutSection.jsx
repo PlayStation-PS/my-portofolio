@@ -17,7 +17,6 @@ const AboutSection = () => {
                 </motion.h2>
 
                 <Row className="align-items-center justify-content-center">
-                    {/* Photo */}
                     <Col md={4} className="text-center mb-4 mb-md-0">
                         <motion.div
                             initial={{ opacity: 0, scale: 0.8 }}
@@ -63,14 +62,13 @@ const AboutSection = () => {
                             <ul className="list-unstyled mt-4 contact-info">
                                 <li>📧 <strong>Email:</strong> bagus.tresna6@yahoo.com</li>
                                 <li>📞 <strong>Phone:</strong> 0821-4470-8860</li>
-                                <li>📍 <strong>Location:</strong> Rungkut, Surabaya, Jawa Timur</li>
+                                <li>📍 <strong>Location:</strong> Tabanan, Bali</li>
                             </ul>
                         </motion.div>
                     </Col>
                 </Row>
             </Container>
 
-            {/* Custom Style */}
             <style>{`
                 #about {
                     background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);

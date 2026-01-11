@@ -21,7 +21,6 @@ const ContactSection = () => {
                 overflow: 'hidden',
             }}
         >
-            {/* ✨ Background Glow */}
             <div
                 style={{
                     position: 'absolute',
