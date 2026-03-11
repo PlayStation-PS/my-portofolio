@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-import { Twitter, Instagram, Facebook, Linkedin } from 'lucide-react';
+import { Twitter, Instagram, Facebook, Linkedin, Github } from 'lucide-react';
 
 const FooterSection = () => {
     const socialLinks = [
@@ -9,6 +9,7 @@ const FooterSection = () => {
         { icon: <Instagram size={22} />, url: 'https://www.instagram.com/bgs.bram_/', name: 'Instagram' },
         { icon: <Facebook size={22} />, url: 'https://www.facebook.com/billy.bht/', name: 'Facebook' },
         { icon: <Linkedin size={22} />, url: 'https://www.linkedin.com/in/bagus-tresna-bramstya-0b6b86232/', name: 'LinkedIn' },
+        { icon: <Github size={22} />, url: 'https://github.com/PlayStation-PS', name: 'Github' },
     ];
 
     return (

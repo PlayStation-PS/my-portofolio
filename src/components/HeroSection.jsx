@@ -1,6 +1,7 @@
 import { Container, Button } from 'react-bootstrap';
 import { ReactTyped } from 'react-typed';
 import { motion } from 'framer-motion';
+import { Github } from "lucide-react";
 
 const HeroSection = () => {
     return (
@@ -36,14 +37,16 @@ const HeroSection = () => {
                         loop
                     />
 
-                    <div style={{ marginTop: 50 }}>
+                    <div style={{ marginTop: 80 }}>
                         <Button
-                            variant="primary"
                             size="lg"
-                            href="projects"
-                            className="aesthetic-btn"
+                            href="https://github.com/PlayStation-PS"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="aesthetic-btn d-inline-flex align-items-center gap-2"
                         >
-                            View My Projects
+                            <Github size={20} />
+                            Follow Me on GitHub
                         </Button>
                     </div>
                 </motion.div>
